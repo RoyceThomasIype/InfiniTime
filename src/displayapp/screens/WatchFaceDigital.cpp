@@ -80,12 +80,12 @@ WatchFaceDigital::WatchFaceDigital(DisplayApp* app,
 
   heartbeatValue = lv_label_create(lv_scr_act(), nullptr);
   lv_obj_set_style_local_text_color(heartbeatValue, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, lv_color_hex(0xCE1B1B));
-  lv_label_set_text_static(heartbeatValue, "HI");
+  lv_label_set_text_static(heartbeatValue, "HELLO");
   lv_obj_align(heartbeatValue, heartbeatIcon, LV_ALIGN_OUT_RIGHT_MID, 5, 0);
 
   stepValue = lv_label_create(lv_scr_act(), nullptr);
   lv_obj_set_style_local_text_color(stepValue, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, lv_color_hex(0x00FFE7));
-  lv_label_set_text_static(stepValue, "HELLO!");
+  lv_label_set_text_static(stepValue, "1234");
   lv_obj_align(stepValue, lv_scr_act(), LV_ALIGN_IN_BOTTOM_RIGHT, 0, 0);
 
   stepIcon = lv_label_create(lv_scr_act(), nullptr);
