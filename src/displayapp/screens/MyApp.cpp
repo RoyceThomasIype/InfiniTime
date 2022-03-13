@@ -10,7 +10,7 @@ MyApp::MyApp(DisplayApp* app) : Screen(app) {
 //   lv_obj_align(title, lv_scr_act(), LV_ALIGN_OUT_TOP_MID, 0, 0);
   
   lv_label_set_text(title, "SPORTident App");
-  lv_obj_align(title, lv_scr_act(), LV_ALIGN_OUT_TOP_MID, 0, -20);
+  lv_obj_align(title, lv_scr_act(), LV_ALIGN_IN_TOP_MID, 0, -20);
 }
 
 MyApp::~MyApp() {
